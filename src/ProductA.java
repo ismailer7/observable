@@ -6,6 +6,7 @@ public class ProductA implements Observable{
 	
 	private List<Observer> subscribers = new ArrayList<>();
 	
+	// this is the state.
 	private boolean inStock = true;
 	
 	public boolean inStock() {
