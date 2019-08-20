@@ -18,7 +18,7 @@ public class User implements Observer {
 	
 	// methods
 	
-	// the user(observer) kep the reference of observable object so he can unsubscribe whenever he want to.
+	// the user(observer) keep the reference of observable object so he can unsubscribe whenever he want to.
 	public void unsubscribe() {
 		observable.removeObserver(this);
 	}
