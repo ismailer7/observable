@@ -1,11 +1,11 @@
 
 public interface Observable {
 
-	// the observable is the subject in which the observers or subscriber for this observable would have been notified if any changes made upon the observable object.
+	// the observable is the subject in which the observers or subscribers would be notified if any changes made upon the observable state.
 	
-	// observable has one or many subscribers its like one to many relation ship.
+	// observable has one or many subscribers its like one to many relationship.
 	
-	void addObserver(Observer o); // we can add subscriber/
+	void addObserver(Observer o); // we can add subscriber.
 	
 	void removeObserver(Observer o); // we can also remove subscriber.
 	
